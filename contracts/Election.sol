@@ -23,7 +23,7 @@ contract Election {
         uint indexed _candidateId
     );
 
-    constructor (string memory) public {
+    constructor () public {
         addCandidate("Candidate 1");
         addCandidate("Candidate 2");
     }
